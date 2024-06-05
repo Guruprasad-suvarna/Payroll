@@ -1,0 +1,79 @@
+.tax-calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 135px;
+  }
+  
+  .tax-calculator h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .tax-calculator label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .tax-calculator select,
+  .tax-calculator input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .tax-calculator button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tax-calculator button:hover {
+    background-color: #e67e22;
+  }
+  
+  .tax-calculator .result {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Colorful Background */
+  .tax-calculator input[type="number"],
+  .tax-calculator select {
+    background-color: #ecf0f1;
+    color: #333;
+  }
+  
+  .tax-calculator input[type="number"]:focus,
+  .tax-calculator select:focus {
+    outline: none;
+    background-color: #dfe6e9;
+  }
+  
+  .tax-calculator input[type="text"] {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .tax-calculator input[type="text"]:focus {
+    outline: none;
+    background-color: #2980b9;
+  }
+  

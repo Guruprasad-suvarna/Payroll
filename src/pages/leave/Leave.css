@@ -1,0 +1,103 @@
+ .leave-card {
+    margin-bottom:250px;
+    background-color: #8b8a8a67;
+    /* margin-top: 135px; */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 5000px;
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+
+  }
+  
+  .leave-card label {
+    font-weight: bold;
+    margin-top: 135px;
+  }
+  
+  .leave-card input[type='text'],
+  .leave-card input[type='checkbox'] {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+  }
+  
+  .leave-card input[type='checkbox'] {
+    display: inline-block;
+    vertical-align: left;
+    margin-right: 10px;
+  }
+  
+  .leave-card button {
+    padding: 12px 20px;
+    background-color: #5f81d9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-block-end: 10px;
+  }
+  
+  .leave-card button:hover {
+    background-color: #4a6eb5;
+  } 
+   
+ /* .container{ 
+    display: flex;
+    flex-direction: bottom;
+    gap: 100px;
+  }  */
+
+
+
+  
+
+
+ .leave-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .leave-card label {
+    font-weight: bold;
+  }
+  
+  .leave-card input[type='text'],
+  .leave-card input[type='checkbox'] {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+  }
+  
+  .leave-card input[type='checkbox'] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .leave-card button {
+    padding: 12px 20px;
+    background-color: #5f81d9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } 
+  
+  .leave-card button:hover {
+    background-color: #4a6eb5;
+  }
+  
+  
+    /* text-align: center;*/
+   
+  
+ 
+    
+    
